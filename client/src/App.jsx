@@ -1,6 +1,8 @@
 import { Navbar, Transactions, Loader, Footer, Services, Welcome } from "./components";
 
 
+
+
 const App = () => {
 
   return (
@@ -9,7 +11,10 @@ const App = () => {
           <div className = "gradient-bg-welcome">
 
             <Navbar/>
+
             <Welcome/>
+            
+
 
           </div>
 
