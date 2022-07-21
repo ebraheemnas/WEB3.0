@@ -27,7 +27,7 @@ const Navbar = () => {
                 <img src={logo} alt="logo" className = "w-32 cursor-pointer" />
             </div>
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
-              {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+              {["About us", "Exchange", "Market", "How to install Metamask"].map((item, index) => (
                <NavbarItem key={item + index} title={item} />
 
               ))} {/*hoon lazim arj3 wazabet el wade3 3ala 7asab shu ana b7taj lal mwke33    */}
@@ -51,7 +51,7 @@ const Navbar = () => {
                         <AiOutlineClose onClick={() => setToggleMenu(false)} />
                         </li>
 
-                        {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
+                        {["About us", "Exchange", "Market", "How to install Metamask"].map((item, index) => (
                         <NavbarItem key={item + index} title={item} classprops="my-2 text-lg" />
 
                         ))}
