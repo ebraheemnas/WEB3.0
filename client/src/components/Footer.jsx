@@ -12,7 +12,9 @@ const Footer = () => (
         <p className="text-white text-base text-center mx-2 cursor-pointer">About us</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
         <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">How to intsall Metamask</p>
+        <span className="text-white text-base text-center mx-2 cursor-pointer"> 
+          <a href="https://metamask.io/"> Intsall Metamask</a>
+        </span>
       </div>
     </div>
 
