@@ -5,16 +5,44 @@ import logo from "../../images/logo.png";
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer">
     <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
+      
       <div className="flex flex-[0.5] justify-center items-center">
-        <img src={logo} alt="logo" className="w-32" />
+
+                  <a href="https://lieferketteverfolgung.de/">
+                    <img src={logo} alt="logo" className = "w-32 cursor-pointer"/>
+                  </a>
+
       </div>
+
+
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-        <p className="text-white text-base text-center mx-2 cursor-pointer">About us</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Exchange</p>
-        <p className="text-white text-base text-center mx-2 cursor-pointer">Market</p>
+
+
+
+      <span className="text-white text-base text-center mx-2 cursor-pointer"> 
+        <a href="https://express.adobe.com/page/caHsboaCnaNAI/">About us</a>
+      </span>
+
+
+        <span className="text-white text-base text-center mx-2 cursor-pointer"> 
+          <a href="https://express.adobe.com/page/ZZFU5wf6dp9Va/">Free Space</a>
+        </span>
+
+
+        <span className="text-white text-base text-center mx-2 cursor-pointer"> 
+          <a href="https://express.adobe.com/page/C7gsxAoTuijjk/">Market</a>
+        </span>
+
+
+
         <span className="text-white text-base text-center mx-2 cursor-pointer"> 
           <a href="https://metamask.io/"> Intsall Metamask</a>
         </span>
+
+
+
+
+
       </div>
     </div>
 

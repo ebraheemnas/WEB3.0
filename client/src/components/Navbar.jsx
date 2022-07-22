@@ -7,10 +7,6 @@ import logo from '../../images/logo.png';
 
 
 
-
-
-
-
 const NavbarItem = ({title, classprops}) =>{
     return (
         <li className = {`mx-4 cursor-pointer ${classprops}`}> 
@@ -33,17 +29,21 @@ const Navbar = () => {
         
         <nav className = "w-full flex md:justify-center justify-between items-center p-4 nav ">
             <div className = "md:flex-[0.5] flex-initial justify-center items-center">
-                <img src={logo} alt="logo" className = "w-32 cursor-pointer" /> 
+
+                <a href="https://lieferketteverfolgung.de/">
+                    <img src={logo} alt="logo" className = "w-32 cursor-pointer"/>
+                </a>
+                
             </div>
 
 
             <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial ">
-
+                
               {[ 
 
-                    <a href="https://express.adobe.com/page/caHsboaCnaNAI/"> About us</a>,
-                    "Exchange",
-                    "Market",
+                    <a href="https://express.adobe.com/page/caHsboaCnaNAI/">About us</a>,
+                    <a href="https://express.adobe.com/page/ZZFU5wf6dp9Va/">Free Space</a>,
+                    <a href="https://express.adobe.com/page/C7gsxAoTuijjk/">Market</a>,
                     <a href="https://metamask.io/"> Intsall Metamask</a>
 
                 ].map((item, index) => (
@@ -72,10 +72,13 @@ const Navbar = () => {
 
                         {[
 
-                        <a href="https://express.adobe.com/page/caHsboaCnaNAI/"> About us</a>,
-                         "Exchange",
-                          "Market",
-                        <a href="https://metamask.io/"> Intsall Metamask</a>].map((item, index) => (
+                            <a href="https://express.adobe.com/page/caHsboaCnaNAI/">About us</a>,
+                            <a href="https://express.adobe.com/page/ZZFU5wf6dp9Va/">Free Space</a>,
+                            <a href="https://express.adobe.com/page/C7gsxAoTuijjk/">Market</a>,
+                            <a href="https://metamask.io/"> Intsall Metamask</a>
+
+
+                         ].map((item, index) => (
                         <NavbarItem key={item + index} title={item} classprops="my-2 text-lg" />
 
 
