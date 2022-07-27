@@ -10,7 +10,7 @@ contract Transactions{
 
     struct TransferStruct {
 
-        address sender; // lazim tkon from wmesh sender 
+        address sender; 
         address receiver; 
         uint amount;
         string message;
