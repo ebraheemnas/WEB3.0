@@ -35,7 +35,7 @@
       <li>Interact with the platform using your MetaMask wallet.</li>
     </ol>
     <h2>Contributing</h2>
-    <p>We welcome contributions to improve and expand the platform. Please submit issues and pull requests via GitHub.</p>
+    <p>Please submit issues and pull requests via GitHub.</p>
     <h2>License</h2>
     <p>This project is licensed under the MIT License.</p>
   </body>
