@@ -21,7 +21,7 @@
       <li>Clone this repository:</li>
       <code>git clone https://github.com/ebraheemnas/WEB3.0.git</code>
       <li>Change directory to the project folder:</li>
-      <code>cd supply-chain-message-transfer</code>
+      <code>cd web3.0</code>
       <li>Install dependencies:</li>
       <code>npm install</code>
       <li>Start the development server:</li>
